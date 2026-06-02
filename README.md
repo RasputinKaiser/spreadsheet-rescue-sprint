@@ -2,6 +2,7 @@
 
 Public-safe intake surface for a fixed-scope spreadsheet cleanup service.
 
+- Live page: https://rasputinkaiser.github.io/spreadsheet-rescue-sprint/
 - Core price: `$75`
 - Public service name: `Spreadsheet Rescue Sprint`
 - Public legal name use: disallowed
