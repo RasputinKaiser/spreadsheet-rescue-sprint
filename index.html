@@ -138,6 +138,16 @@
       border-radius: 4px;
       background: #edf1f5;
     }
+    pre {
+      overflow-x: auto;
+      margin: 10px 0 0;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #f9fbfd;
+      white-space: pre-wrap;
+      font: 14px/1.45 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
     @media (max-width: 760px) {
       .grid { grid-template-columns: 1fr; }
       main { width: min(100% - 22px, 920px); padding-top: 16px; }
@@ -187,6 +197,17 @@
   </section>
 
   <section>
+    <h2>Public Fit-Check Prompt</h2>
+    <p>Use this public-safe format. Do not attach the file or include payment details in GitHub.</p>
+    <pre>File type: CSV / XLSX / Google Sheet export
+Rough size: about ___ rows and ___ columns
+Cleanup goal: ___
+Do-not-change rules: ___
+Deadline: ___
+Sensitive data removed: yes</pre>
+  </section>
+
+  <section>
     <h2>Sample Cleanup</h2>
     <p>See a small synthetic example of the kind of before/after cleanup and delivery note included in the sprint.</p>
     <div class="sample-links">
@@ -224,7 +245,7 @@
 
   <section class="cta">
     <h2>Request A Fit Check</h2>
-    <p>Open a request with the file type, rough size, and the cleanup outcome you want. Keep public requests non-sensitive; file transfer and payment happen only after scope fit is confirmed.</p>
+    <p>Open a request with the file type, rough size, and the cleanup outcome you want. Current availability as of 2026-06-02: one fixed-scope cleanup slot is open. Keep public requests non-sensitive; file transfer and payment happen only after scope fit is confirmed.</p>
     <p>
       <a class="button" href="https://github.com/RasputinKaiser/spreadsheet-rescue-sprint/issues/new?template=fit-check.yml">Open fit-check request</a>
       <a class="button secondary" href="mailto:ianzvir@gmail.com?subject=Spreadsheet%20Rescue%20Sprint%20fit%20check">Email fit check</a>
