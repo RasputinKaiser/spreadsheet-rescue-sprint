@@ -1,0 +1,59 @@
+name: Spreadsheet fit check
+description: Ask whether a copied/exported spreadsheet is a fit for the $75 cleanup sprint.
+title: "[Fit check] "
+labels:
+  - fit-check
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Keep this public request non-sensitive. Do not attach files here. Do not include passwords, account access, private keys, payment details, medical details, legal documents, tax records, or regulated financial records.
+  - type: input
+    id: file_type
+    attributes:
+      label: File type
+      description: CSV, XLSX, Google Sheet export, or other.
+      placeholder: CSV export
+    validations:
+      required: true
+  - type: input
+    id: rough_size
+    attributes:
+      label: Rough size
+      description: Approximate rows and columns.
+      placeholder: About 1,200 rows and 12 columns
+    validations:
+      required: true
+  - type: textarea
+    id: cleanup_goal
+    attributes:
+      label: Cleanup goal
+      description: What should be cleaned, normalized, deduplicated, summarized, or flagged?
+      placeholder: Remove duplicate orders, normalize dates, clean status labels, and flag rows with missing prices.
+    validations:
+      required: true
+  - type: textarea
+    id: do_not_change
+    attributes:
+      label: Do-not-change rules
+      description: Note any rows, columns, formulas, IDs, or values that must stay untouched.
+      placeholder: Do not change order IDs or formulas in columns G-H.
+    validations:
+      required: false
+  - type: input
+    id: deadline
+    attributes:
+      label: Deadline
+      description: When do you need the cleaned copy back?
+      placeholder: 24-48 hours is ideal
+    validations:
+      required: false
+  - type: checkboxes
+    id: boundaries
+    attributes:
+      label: Boundary check
+      options:
+        - label: I understand this is data cleanup and organization only, not tax, legal, financial, accounting, medical, hiring, insurance, loan, investment, or regulated advice.
+          required: true
+        - label: I will not post sensitive data or attach private files to this public request.
+          required: true
