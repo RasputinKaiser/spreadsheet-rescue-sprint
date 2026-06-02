@@ -1,0 +1,7 @@
+Order ID,Customer,Date,Item,Category,Qty,Price,Status,Line Total,Notes
+1001,Acme Co,2026-05-01,Widget A,Widgets,2,19.99,Paid,39.98,
+1002,Beta LLC,2026-05-01,Widget B,Widgets,1,29.99,Paid,29.99,Duplicate removed from messy input
+1003,Corner Shop,2026-05-02,Gadget C,Gadgets,3,12.50,Pending,37.50,
+1004,Acme Co,2026-05-02,Widget A,Widgets,,19.99,Paid,,Missing quantity requires buyer confirmation
+1005,Delta Studio,2026-05-03,Service Plan,Services,1,99.00,Paid,99.00,
+1006,Unknown,2026-05-03,Widget B,Widgets,2,29.99,Pending,59.98,Missing customer name in messy input

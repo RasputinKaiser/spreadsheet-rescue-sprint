@@ -1,0 +1,8 @@
+Order ID,Customer,Date,Item,Category,Qty,Price,Status
+1001,  Acme Co ,5/1/26,Widget A,widgets,2,$19.99,paid
+1002,Beta LLC,05-01-2026,Widget B,Widgets,1,29.99, Paid
+1002,Beta LLC,05-01-2026,Widget B,Widgets,1,29.99, Paid
+1003,Corner Shop,2026/05/02,Gadget C,gadget,3,$12.50,pending
+1004,Acme Co,May 2 2026,Widget A,Widgets,,19.99,paid
+1005,Delta Studio,5/3/2026,Service Plan,services,1,$99.00,paid
+1006,,5/3/2026,Widget B,widgets,2,29.99,pending

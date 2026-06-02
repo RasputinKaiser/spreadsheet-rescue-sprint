@@ -12,3 +12,8 @@ Do not include passwords, account access, private keys, payment details, medical
 
 Landing page: `index.html`
 Fit-check issue template: `.github/ISSUE_TEMPLATE/fit-check.yml`
+Synthetic sample:
+
+- `sample/messy-sales.csv`
+- `sample/cleaned-sales.csv`
+- `sample/sample-delivery-report.md`
